@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "springboot-payment"
+  description: "payment service created from java spring boot template"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/dev-team"
